@@ -1,6 +1,6 @@
 Vue.component('comp-child', {
         template: '<div class="comp-child">\
-                    <slot text="Hello!"></slot>\
+                    <slot text="Hello!">이런식으로 하는구나!!</slot>\
                   </div>       ',
         data: {
             message: 'childMsg1'
